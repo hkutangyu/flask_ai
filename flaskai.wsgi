@@ -7,4 +7,4 @@ import sys
 import logging
 logging.basicConfig(stream=sys.stderr)
 sys.path.insert(0, "/var/www/flask_ai/")
-from flask_ssd import app as application
+from flask_ai import app as application
